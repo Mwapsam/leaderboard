@@ -2,33 +2,39 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/fe6dec7cca.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>My Todos</title>
+    <title>Lead Board</title>
   </head>
 
   <body>
-    <div class="list">
-      <div class="row title">
-        <p>Today's To Do</p>
-        <i class="fas fa-sync"></i>
+    <header>
+      <h1>Leaderboard</h1>
+    </header>
+    <section class="board-section">
+      <div class="result">
+        <div class="titles">
+          <h2>Recent Score</h2>
+          <button type="button" class="btn refresh">Refresh</button>
+        </div>
+        <ul class="scores-list" id="list">
+          <li><p>Name: 100</p></li>
+          <li><p>Name: 30</p></li>
+          <li><p>Name: 20</p></li>
+          <li><p>Name: 70</p></li>
+          <li><p>Name: 80</p></li>
+          <li><p>Name: 60</p></li>
+          <li><p>Name: 10</p></li>
+        </ul>
       </div>
-      <div class="row">
-        <input
-          class="add-input"
-          id="todo-input"
-          type="text"
-          placeholder="Add to your list"
-        />
-        <i class="fas fa-level-down-alt rotate"></i>
+      <div class="score-form">
+        <h2>Add your Score</h2>
+        <form action="#" id="submit-data">
+          <input type="text" id="fullname" placeholder="Your name" />
+          <input type="number" id="score" placeholder="Your Score" />
+          <button type="submit" class="btn submit-form">Submit</button>
+        </form>
       </div>
-      <div class="todos-list" id="todos-list"></div>
-      <div class="row clear">
-        <p>Clear All Completed</p>
-      </div>
-    </div>
+    </section>
   </body>
 </html>

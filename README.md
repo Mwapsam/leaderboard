@@ -1,23 +1,45 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Webpack Boilerplate
+## Leaderboard List App
 
-This is a Boilerplate for Webpack. Webpack is used to compile JavaScript modules. You can read more about [Webpack here](https://webpack.js.org/guides/getting-started/).
+
+JavaScript project for the Leaderboard list app, built using webpack and ES6 features. The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved using the external Leaderboard API service.
+
+![screenshot](./screenshot.png)
+
+## Built With
+
+- Webpack
+- HTML
+- CSS
+- Modular JavaScript (with modern ES6 syntax)
+
+## Live Demo
+
+[Live Demo Link](https://mwapsam.github.io/leaderboard/)
 
 ## Getting Started
 
 **Setup**
 
-git clone https://github.com/Mwapsam/Webpack-Boilerplate
+git clone https://github.com/Mwapsam/leaderboard.git
 
 ```
+cd leaderboard
 npm install
 npm start
 ```
 
-## Authors
+**Deploy**
 
-👤 **Author**
+```
+npm run build
+npm run deploy
+
+```
+
+## 👤 Author
+
 
 - GitHub: [@Mwapsam](https://github.com/Mwapsam)
 
