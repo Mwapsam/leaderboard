@@ -5,7 +5,7 @@
 
 JavaScript project for the Leaderboard list app, built using webpack and ES6 features. The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved using the external Leaderboard API service.
 
-![screenshot](./Screenshot.png)
+![screenshot](./screenshot.png)
 
 ## Built With
 
